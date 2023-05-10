@@ -76,3 +76,7 @@ C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\ob
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.csproj.CopyComplete
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.dll
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.pdb
+C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.dll
+C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.SqlServer.dll
+C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.xml
+C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.SqlServer.xml
