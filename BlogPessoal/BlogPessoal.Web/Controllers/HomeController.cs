@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace BlogPessoal.Web.Controllers
-{
+{ 
     public class HomeController : Controller
     {
         // GET: Home

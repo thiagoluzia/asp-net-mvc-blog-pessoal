@@ -119,9 +119,16 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Data\BlogPessoalContexto.cs" />
+    <Compile Include="Data\Mapeamento\ArtigoMap.cs" />
+    <Compile Include="Data\Mapeamento\AutorMap.cs" />
+    <Compile Include="Data\Mapeamento\CategoriaDeArtigoMap.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Artigos\Artigo.cs" />
+    <Compile Include="Models\Autores\Autor.cs" />
+    <Compile Include="Models\CategoriasDeArtigo\CategoriaDeArtigo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
