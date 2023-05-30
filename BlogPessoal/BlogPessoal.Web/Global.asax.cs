@@ -1,3 +1,4 @@
+using BlogPessoal.Web.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace BlogPessoal.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            var ctx = new BlogPessoalContexto();
+            ctx.Database.Log = Console.WriteLine;
         }
     }
 }

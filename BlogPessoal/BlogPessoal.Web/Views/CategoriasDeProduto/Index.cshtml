@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Form Collection</h1>
+<h2>Categorias de Produto</h2>
+
+@using (Html.BeginForm())
+{
+    <label>Nome</label>
+    <input type="text" class="form-control" id="nome" name="nome" />
+    <input type="submit" class="btn btn-success" value="Salvar"/>
+}
+

@@ -71,7 +71,6 @@ C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bi
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\pt-br\System.Web.Mvc.resources.dll
-C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.csproj.AssemblyReference.cache
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.csproj.CoreCompileInputs.cache
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.csproj.CopyComplete
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.dll
@@ -80,3 +79,4 @@ C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bi
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.SqlServer.dll
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.xml
 C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\bin\EntityFramework.SqlServer.xml
+C:\Faculdade\ASP_NET_MVC\asp-net-mvc-blog-pessoal\BlogPessoal\BlogPessoal.Web\obj\Debug\BlogPessoal.Web.csproj.AssemblyReference.cache

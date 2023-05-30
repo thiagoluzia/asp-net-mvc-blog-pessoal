@@ -1,0 +1,41 @@
+﻿@using BlogPessoal.Web.Models.CategoriasDeArtigo
+@model CategoriaDeArtigo
+
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<div>
+
+    <h4>Você tem certeza que quer remover esta categria?</h4>
+
+    <hr />
+
+    <dl class="dl-horizontal">
+
+        <dt>@Html.DisplayNameFor(model => model.Nome)</dt>
+
+        <dd>@Html.DisplayFor(model => model.Nome)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Descricao)</dt>
+
+        <dd>@Html.DisplayFor(model => model.Descricao)</dd>
+        
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        <div class="form-control" > 
+            <input type="submit" value="Delete" name ="Delete"class="btn btn-default" />
+            @Html.ActionLink("Voltar para lista", "Index")
+        </div>
+    }
+
+</div>
+
+
+
+

@@ -1,19 +1,21 @@
 ﻿using BlogPessoal.Web.Models.Autores;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Web;
 
 namespace BlogPessoal.Web.Data.Mapeamento
 {
     public class AutorMap : EntityTypeConfiguration<Autor>
     {
+        /// <summary>
+        /// Classe responsável por mapear os campos do banco de dados na model.
+        /// </summary>
         public AutorMap()
         {
+            //PROPIEDADE DA TABELA COMO ELA É NO BANCO DE DADOS
             ToTable("autor");
             HasKey(x => x.Id);
 
+            //PROPIEDADES DOS CAMPOS COMO SÃO NO BANCO DE DADOS
+            Property(x => x.Id).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity).HasColumnName("id");
             Property(x => x.Nome).IsRequired().HasMaxLength(150).HasColumnName("nome");
             Property(x => x.Email).IsRequired().HasMaxLength(150).HasColumnName("email");
             Property(x => x.Senha).IsRequired().HasMaxLength(50).HasColumnName("senha");
